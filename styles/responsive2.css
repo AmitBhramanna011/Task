@@ -1,0 +1,25 @@
+/* This is css file for responsive for width less than 520px  */
+
+@media only screen and (max-width: 520px) {
+    .body-heading span{
+    
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 90px;
+        }
+        .services-info {
+            display: flex;
+            flex-direction: column;
+            padding: 12px 20px;
+            align-items: flex-start;
+        }
+        .body-info p {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+            text-align: center;
+            line-height: 27px;
+            padding: 0px 2px;
+        }
+    }

@@ -1,0 +1,99 @@
+/* This is css file for responsive for width less than 820px  */
+@media only screen and (max-width: 820px) {
+    .menu-toggle{
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 20px;
+        text-align: center;
+        padding: 0px 9px;
+        border-radius: 25px;
+    }
+    .nav-bar ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      z-index: 99;
+      padding: 10px;
+    }
+  
+    .nav-bar ul a li {
+      padding: 10px;
+      border-bottom: 1px solid #333;
+    }
+  
+    .nav-bar ul.active {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-bar .menu-toggle {
+      display: flex;
+    }
+  
+    .nav-bar .logo {
+      margin-right: auto;
+    }
+  
+    .body {
+      height: auto;
+      padding-bottom: 20px;
+    }
+  
+    .body-info {
+      width: auto;
+      padding: 0 20px;
+    }
+  
+    .services-cards {
+      padding: 0 20px;
+    }
+  
+    .card {
+      
+      margin-bottom: 20px;
+    }
+  
+    .footer p {
+      font-size: 12px;
+    }
+    .body-heading span{
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    
+    line-height: 169.68px;
+    }
+    .services-info {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 56px;
+        align-items: flex-start;
+    }
+    .services-info p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 70.7px;
+        margin: 0px;
+    }
+    .services-bar p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25.45px;
+        margin-top: 0px;
+    }
+    .body-heading span {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 120.68px;
+    }
+  }
